@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(33, 31, 31);
+    font-family: 'Kode Mono', sans-serif;
+    color: #9200FA;
+}
+
+#navbar {
+    background: black;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+}
+
+ul {
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    margin: 0.5em;
+    display: block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#topo ul a:hover {
+    color: seashell;
+    background-color: #0900FB;
+}
+
+body.home #navegacao a#home,
+body.formacao #navegacao a#acessibilidade,
+body.projetos #navegacao a#novidades,
+body.contato #navegacao a#contato {
+    color: seashell;
+}
+
+h2 {
+    font-size: 1.1em;
+    color: #9200FA;
+    padding: 5px;
+}
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+#container-rodape {
+    background-color: black;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.imagem-projeto {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #9200FA;
+    border-radius: 8px;
+    margin: 10px 0;
+}
